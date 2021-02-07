@@ -3,6 +3,28 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
+gem 'lodash-rails'
+gem 'local_time'
+gem 'redis', '~> 3.0'
+gem 'devise'
+gem 'devise_invitable'
+gem 'rolify'
+gem 'cancancan', '~> 1.15'
+gem 'paper_trail'
+gem 'friendly_id', '~> 5.1.0'
+gem 'gravatar_image_tag'
+gem 'country_select'
+gem 'kaminari'
+gem 'money-rails'
+gem 'ransack'
+gem 'slack-notifier'
+gem 'premailer-rails'
+gem 'griddler'
+gem 'griddler-mailgun'
+gem 'rollbar'
+gem 'bootstrap', '~> 5.0.0.beta1'
+gem 'jquery-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 # Use postgresql as the database for Active Record
